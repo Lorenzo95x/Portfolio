@@ -58,7 +58,7 @@
         </div>
       </nav>
     </header>
-    <section id="about" style="padding-bottom: 100px;">
+    <section id="about" style="padding-bottom: 100px; padding-top: 80px;">
         <div class="container">
             <div class="clearfix">
                 <img src="assets/images/mia-immagine-set.jpg" class="col-md-5 rounded float-start img-fluid" style="align-items: flex-start;">
@@ -137,79 +137,49 @@
         </div>
       </div>
                       </section>
-                      <section id="contact" style="padding-bottom: 60px;">
-                        <div class="container text-center">
-                          <div class="row justify-content-start">
-                            <div class="col">
-                              <h3>Di seguito vi lascio i miei profili social, contattatemi.</h3>
-                            </div>
-                          </div>
-                        </div>
-                      <div class="container">
-                        <div class="row row-cols-1 row-cols-md-3 g-4">
-                          <div class="col">
-                            <div class="card" style="max-width: 18rem;">
-                                <img src="assets/images/facebook-icon.svg" class="card-img-top">
-                                <div class="card-body">
-                                  <h5 class="card-title">Facebook</h5>
-                                  <a href="https://www.facebook.com/lorenzo.pedano" target="_blank" class="btn btn-primary">My Facebook</a>
-                              </div>
-                        </div>
-                        </div>
-                        <div class="col">
-                            <div class="card" style="max-width: 18rem;">
-                                <img src="assets/images/instagram-icon.svg" class="card-img-top">
-                                <div class="card-body">
-                                  <h5 class="card-title">Instagram</h5>
-                                  <a href="https://www.instagram.com/lorenzoped/" target="_blank" class="btn btn-primary">My Instagram</a>
-                                </div>
-                                <div class="col">
-                                  <div class="card" style="max-width: 18rem;">
-                                      <img src="assets/images/github-icon.svg" class="card-img-top">
-                                <div class="card-body">
-                                  <h5 class="card-title">GitHub</h5>
-                                  <a href="https://github.com/Lorenzo95x" target="_blank" class="btn btn-primary">My GitHub</a>
-                                </div>
-                              </div>
-                          </div>
-                        </div>
-                </div>
-                <div class="container">
-                  <div class="col">
-                  <form name="modulo">
-                    Email:<br />
-                    <input type="text" name="email"> <br />
-                    Oggetto:<br />
-                    <input type="text" name="oggetto"> <br />
-                    Messaggio:<br />
-                    <textarea name="messaggio" rows="10" cols="30"></textarea> <br/>
-                    <input type="button" value="Invia" onClick="Email()">
-                    </form>
-                  <script type="text/javascript">
-                    <!--
-                    function Email() {
-                    var email = document.modulo.email.value;
-                    var oggetto = document.modulo.oggetto.value;
-                    var messaggio = document.modulo.messaggio.value;
-                    if ((email.indexOf("@") == (-1)) || (email == "") || (email == "undefined")) {
-                    alert("lorenzoped@hotmail.it.");
-                    document.modulo.email.focus();
-                    }
-                    else if ((oggetto == "") || (oggetto == "undefined")) {
-                    alert("Inserire un oggetto.");
-                    document.modulo.oggetto.focus();
-                    }
-                    else if ((messaggio == "") || (messaggio == "undefined")) {
-                    alert("Inserire un messaggio.");
-                    document.modulo.messaggio.focus();
-                    }
-                    else {
-                    location.href = "mailto:" + email + "?Subject=" + oggetto + "&Body=" + messaggio;
-                    }
-                    }
-                    </script>
-                </div>
-                </div>
+                      <section id="contact" style="padding-bottom: 40px;">
+                      <!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Di seguito troverete i miei profili social:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a class="btn text-white m-1"
+      style="background-color: #3b5998;" href="https://www.facebook.com/lorenzo.pedano" role="button" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a class="btn text-white m-1" style="background-color: red;" href="https://www.instagram.com/lorenzoped/" role="button" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a class="btn text-white m-1" style="background-color: #333333; "href="https://github.com/Lorenzo95x" target="_blank" role="button">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </section>
+    <!-- Right -->
+    <!-- Grid column -->
+    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="padding-top: 25px;">
+      <!-- Links -->
+      <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+      <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+      <p>
+        <i class="fas fa-envelope me-3 text-secondary"></i>
+        info@example.com
+      </p>
+      <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+      <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+    </div>
+    <!-- Grid column -->
+  </div>
+  <!-- Grid row -->
+</div>
+</footer>
                       </section>
       <!-- MDB -->
     <script type="text/javascript" src="assets/js/mdb.min.js"></script>
