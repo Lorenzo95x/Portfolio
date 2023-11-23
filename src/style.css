@@ -10,6 +10,9 @@
     padding-bottom: 100px;
     padding-top: 80px;
 }
+#image1 {
+    align-items: flex-start;
+}
 #formation1 {
     padding-top: 15px;
 }
