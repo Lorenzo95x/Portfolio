@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.section1 {
+ padding: 0%;
+}
 p,
 li,
 h1,
