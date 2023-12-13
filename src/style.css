@@ -6,6 +6,9 @@
 
 /* Stili per su di me */
 
+.clearfix {
+    padding-top: 20px;
+}
 #image1 {
     align-items: flex-start;
 }
@@ -42,6 +45,7 @@
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 form {
