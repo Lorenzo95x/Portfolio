@@ -3,25 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-#home {
- padding: 0%;
-}
-#about {
-    padding-bottom: 100px;
-    padding-top: 80px;
+
+/* Stili per su di me */
+
+.clearfix {
+    padding-top: 20px;
 }
 #image1 {
     align-items: flex-start;
 }
-#formation1 {
-    padding-top: 15px;
-}
-#formation2 {
-    width: 50px;
-}
 #formation3 {
     height: 100px;
 }
+
+/* Stili per skills */
+
 #skills {
     padding-top: 25px;
 }
@@ -43,11 +39,35 @@
 #language1 {
     padding-top: 20px;
 }
-#contact {
-    padding-bottom: 40px;
+
+/* Stili per contattami */
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
 }
-#contact1 {
-    padding-top: 25px;
+
+form {
+    display: grid;
+    grid-gap: 1em;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
 }
 p,
 li,
