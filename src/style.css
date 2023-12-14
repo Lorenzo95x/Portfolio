@@ -42,6 +42,12 @@
 
 /* Stili per contattami */
 
+#contact {
+        background-image: url('../assets/images/contatti.jpg');
+        background-size: cover;
+        background-position: center;
+}
+
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
