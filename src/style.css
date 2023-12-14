@@ -18,6 +18,10 @@
 
 /* Stili per skills */
 
+#skillsbg {
+    background-image: url('../assets/images/sfondo-computer-bianco.jpg');
+    height: 100vh;
+}
 #skills {
     padding-top: 25px;
 }
