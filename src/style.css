@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+#insta {
+    background-color: red;
+}
+#github {
+    background-color: #333333;
+}
+
 /* Stili per home */
 
 #homebg {
