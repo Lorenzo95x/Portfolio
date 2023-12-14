@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+/* Stili per home */
+
+#homebg {
+    background-image: url('../assets/images/sfondo-computer.jpg');
+    height: 100vh;
+}
+
 /* Stili per su di me */
 
 .clearfix {
