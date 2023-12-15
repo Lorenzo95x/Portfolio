@@ -65,6 +65,7 @@
         background-image: url('../assets/images/contatti.jpg');
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
 }
 
 .contact-form {
