@@ -18,11 +18,11 @@
     height: 100vh;
 }
 #head {
+    margin-top: 100px;
     padding-bottom: 20px;
 }
 #btn {
     margin: 40px;
-    margin-top: 30px;
 }
 
 
