@@ -17,6 +17,14 @@
     background-image: url('../assets/images/sfondo-computer.jpg');
     height: 100vh;
 }
+#head {
+    padding-bottom: 20px;
+}
+#btn {
+    margin: 40px;
+    margin-top: 30px;
+}
+
 
 /* Stili per su di me */
 
