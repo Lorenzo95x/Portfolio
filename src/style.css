@@ -126,4 +126,13 @@ li {
     #btn {
         margin: 10px;
     }
+    #skillsbg {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    #skills1 .col,
+    #skills2 .col {
+        margin-bottom: 20px;
+    }
 }
