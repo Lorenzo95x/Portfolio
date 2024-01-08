@@ -17,11 +17,11 @@
     background-image: url('../assets/images/sfondo-computer.jpg');
     height: 100vh;
 }
-#head {
-    margin-top: 100px;
-}
 #btn {
     margin: 20px;
+}
+#work {
+    margin-top: 50px;
 }
 
 
@@ -113,4 +113,17 @@ h3 {
 p,
 li {
     font-size: large;
+}
+@media (max-width: 767px) {
+    #homebg {
+        height: auto;
+    }
+
+    #work {
+        margin-top: 20px;
+    }
+
+    #btn {
+        margin: 10px;
+    }
 }
